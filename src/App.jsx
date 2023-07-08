@@ -1,10 +1,10 @@
 import './App.css';
-import StartPage from './StartPage';
+import WelcomeHeader from './WelcomeHeader';
 
 
 function App() {
   return (
-    <StartPage />
+    <WelcomeHeader />
   );
 }
 
