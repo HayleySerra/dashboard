@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MainPage() {
+function MainHeader() {
   return (
     <div>
       <h1>Welcome to dashboard again</h1>
@@ -8,4 +8,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default MainHeader;

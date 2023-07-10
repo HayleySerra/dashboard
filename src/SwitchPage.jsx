@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
 import Button from './Button';
-import MainPage from './MainPage'; //component to switch to when button click
-import WelcomeHeader from './WelcomeHeader'; //component to unmount when button click
+import MainHeader from './MainHeader'; //component to switch to when button click
 
 function SwitchPage() {
-  const [showMainPage, setShowMainPage] = useState(false);
+  const [showMainHeader, setShowMainHeader] = useState(false);
 
   const handleClick = () => {
-    setShowMainPage(true);
+    setShowMainHeader(true);
   };
 
   return (
     <header>
     <Button onClick={handleClick} />
-    {showMainPage && <MainPage />}
+    {showMainHeader && <MainHeader />}
     </header>
   );
 }
