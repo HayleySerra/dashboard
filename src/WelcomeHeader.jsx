@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useCookies } from 'react-cookie';
-import SwitchPage from './SwitchPage';
 
 function WelcomeHeader() {
   const [title, setTitle] = useState('Welcome! Please enter your name: ');
@@ -18,7 +17,6 @@ function WelcomeHeader() {
     <header>
       <h1>{title}</h1>
       <input type="text" value={title} onChange={handleTitleChange} />
-      <SwitchPage />
     </header>
   );
 }

@@ -1,10 +1,10 @@
 import './App.css';
-import WelcomeHeader from './WelcomeHeader';
+import SwitchHeader from './SwitchHeader';
 
 
 function App() {
   return (
-    <WelcomeHeader />
+    <SwitchHeader />
   );
 }
 
