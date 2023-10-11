@@ -1,5 +1,26 @@
 .weather {
+    width: 200px;
     position: relative;
-    bottom: 350px;
-    right: 750px;
+    bottom: 300px;
+    right: -875px;
+    padding: 5px;
+
+  }
+
+.weather h2 {
+
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 12px;
+
+  }
+
+.weather p {
+
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 12px;
+
   }

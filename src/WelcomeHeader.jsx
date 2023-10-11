@@ -3,7 +3,7 @@ import { useCookies } from 'react-cookie';
 import './WelcomeHeader.css';
 
 function WelcomeHeader() {
-  const [title, setTitle] = useState('Welcome! Please enter your name: ');
+  const [title, setTitle] = useState('Welcome! Please enter your name: '); //this shows in the input field so make it static another way
   const [cookies, setCookie] = useCookies(['myCookie']);
 
   useEffect(() => {
