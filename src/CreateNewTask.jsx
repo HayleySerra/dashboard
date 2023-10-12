@@ -1,14 +1,23 @@
-import React from 'react';
-//takes in input from user and shows task to user
-function CreateNewTask (props) {
+import React, { useState } from 'react';
+import TaskComponent from './TaskComponent';
+import TaskList from './TaskList';
 
-    const handleClick = () => {
-        <h2>this is a task.</h2>;
-    };
 
-    return (
-        <button onClick={handleClick}>Create Task</button>
+function CreateNewTask () {
+    const [tasks, setTasks] = useState([]);
+
+    const addTask = (task) => {
+        setTasks([...tasks, task]);
+
+        };
+
+    return(
+        <div>
+            <h1>Task List</h1>
+            <TaskComponent addTask={addTask} />
+            <TaskList tasks={tasks} />
+        </div>
     );
 
-};
+}
 export default CreateNewTask;

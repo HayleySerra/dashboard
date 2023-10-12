@@ -1,14 +1,35 @@
 import React, { useState } from 'react';
-//let's user input a new task in an input field
-export default function TaskComponent () {
-    const task = '';
+
+function TaskComponent ({ addTask }) {
+    const [task, setTask] = useState('');
+
+    const handleInputChange = (e) =>{
+        setTask(e.target.value);
+    };
+ 
+    const handleAddTask = () => {
+        if(task.trim() !== '') {
+            addTask(task);
+            setTask('');
+        }
+    };
 
     return(
-        <>
-        <h2>Tasks:</h2>
-        
-        </>
+
+        <div>
+
+            <input
+                type="text"
+                placeholder="Enter a task"
+                value={task}
+                onChange={handleInputChange}
+            />
+
+            <button onClick={handleAddTask}>Add Task</button>
+
+        </div>
 
     );
 
 };
+export default TaskComponent;
