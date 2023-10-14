@@ -18,7 +18,7 @@ function WelcomeHeader() {
     <header>
       <h2 className="welcomeheader">{title}</h2>
       <h1 className="staticwelcome">Welcome! Please enter your name: </h1>
-      <input type="text" value={title} onChange={handleTitleChange} />
+      <input className="nameInput" type="text" value={title} onChange={handleTitleChange} />
     </header>
   );
 }

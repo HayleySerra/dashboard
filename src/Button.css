@@ -1,0 +1,19 @@
+.welcomeButton {
+    width: 80px; 
+    height: 40px; 
+    font-size: 12px;
+    background-color: #271f1f;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    position: relative; 
+    top: 20px; 
+    margin-top: 10px; 
+  }
+  
+  .welcomeButton:hover {
+    background-color: #636060;
+    color: #FFFFFF;
+  }
