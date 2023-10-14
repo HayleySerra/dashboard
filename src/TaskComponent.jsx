@@ -19,7 +19,7 @@ function TaskComponent ({ addTask }) {
         <div>
 
             <input
-                type="text"
+                type="input"
                 placeholder="Enter a task"
                 value={task}
                 onChange={handleInputChange}
