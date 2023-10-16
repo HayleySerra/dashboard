@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TaskComponent from './TaskComponent';
 import TaskList from './TaskList';
+import './CreateNewTask.css';
 
 
 function CreateNewTask () {
@@ -12,8 +13,8 @@ function CreateNewTask () {
         };
 
     return(
-        <div>
-            <h1>Task List</h1>
+        <div className="taskList">
+            <h1>Todo:</h1>
             <TaskComponent addTask={addTask} />
             <TaskList tasks={tasks} />
         </div>

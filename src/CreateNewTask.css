@@ -1,0 +1,12 @@
+.taskList {
+    position: relative;
+    bottom: -40px;
+    right: 600px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 12px;
+    border: 7px solid rgb(208, 207, 238);
+    padding: 10px;
+    border-width: thin;
+}
