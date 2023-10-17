@@ -1,0 +1,10 @@
+.checkboxList {
+    list-style-type: none;
+    padding-left: 0; /* Optional to remove left padding */
+}
+  
+.checkboxList li {
+    display: flex; /* Align the checkbox and text horizontally */
+    align-items: center; /* Center-align the checkbox and text vertically */
+    margin-bottom: 8px; /* Optional spacing between items */
+}

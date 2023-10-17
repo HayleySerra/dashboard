@@ -1,16 +1,28 @@
 import React, { useState } from 'react';
+import './TaskList.css';
 
 function TaskList ({ tasks }) {
 
     return(
         <div>
-            <ul>
-                {tasks.map((task, index) => (
-                <li key={index}>{task}</li>
-                ))}
-            </ul>
+            <ul class="checkboxList">
+            {tasks.map((task, index) => (
+            <li key={index}>
+              <label>
+                <input
+                  type="checkbox"
+                />
+                {task}
+              </label>
+            </li>
+          ))}
+          </ul>
         </div>
     );
 
 };
 export default TaskList;
+
+
+
+
