@@ -5,7 +5,7 @@ function TaskList ({ tasks }) {
 
     return(
         <div>
-            <ul class="checkboxList">
+            <ul className="checkboxList">
             {tasks.map((task, index) => (
             <li key={index}>
               <label>

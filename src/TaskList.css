@@ -1,10 +1,27 @@
 .checkboxList {
     list-style-type: none;
-    padding-left: 0; /* Optional to remove left padding */
+    padding-left: 0; 
 }
   
 .checkboxList li {
-    display: flex; /* Align the checkbox and text horizontally */
-    align-items: center; /* Center-align the checkbox and text vertically */
-    margin-bottom: 8px; /* Optional spacing between items */
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 8px; 
 }
+
+.checkboxList input[type="checkbox"] {
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px; 
+    height: 13px; 
+    border: 1px solid #fcfcfc; 
+    margin-right: 8px; 
+    border-radius: 2px; 
+  }
+  
+  /* Style the checkboxes when checked */
+.checkboxList input[type="checkbox"]:checked {
+    background-color: #ffffff; 
+    border: 1px solid #eee6ec; 
+  }
