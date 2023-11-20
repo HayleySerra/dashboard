@@ -5,6 +5,7 @@ import './MainHeader.css';
 import NASAComponent from './NASAComponent';
 import CreateNewTask from './CreateNewTask';
 import ClockComponent from './ClockComponent';
+import HabitComponent from './HabitComponent';
 
 function MainHeader() {
   const [cookies] = useCookies(['myCookie']);
@@ -15,6 +16,7 @@ function MainHeader() {
       <NASAComponent />
       <CreateNewTask />
       <ClockComponent />
+      <HabitComponent />
     </div>
   );
 }

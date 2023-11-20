@@ -25,3 +25,9 @@
     background-color: #ffffff; 
     border: 1px solid #eee6ec; 
   }
+
+.scrollable-div {
+  width: 200px;
+  height: 100px;
+  overflow-y: auto;
+}

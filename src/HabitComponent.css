@@ -1,0 +1,12 @@
+.habitList {
+    position: relative;
+    bottom: 200px;
+    right: -50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 12px;
+    border: 7px solid rgb(208, 207, 238);
+    padding: 10px;
+    border-width: thin;
+}

@@ -4,7 +4,7 @@ import './TaskList.css';
 function TaskList ({ tasks }) {
 
     return(
-        <div>
+        <div className="scrollable-div">
             <ul className="checkboxList">
             {tasks.map((task, index) => (
             <li key={index}>
