@@ -1,6 +1,5 @@
 .clock {
     width: 200px;
-    position: relative;
     bottom: 575px;
     right: -875px;
     padding: 5px;
@@ -9,5 +8,10 @@
     font-family: 'Courier New', monospace;
     font-weight: normal;
     font-size: 20px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
 
   }

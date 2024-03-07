@@ -1,5 +1,4 @@
 .taskList {
-    position: relative;
     bottom: -40px;
     right: 600px;
     color: rgb(255, 255, 255);
@@ -9,4 +8,11 @@
     border: 7px solid rgb(208, 207, 238);
     padding: 10px;
     border-width: thin;
+    height: 500px;
+    width: 500px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }

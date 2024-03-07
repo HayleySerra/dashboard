@@ -9,7 +9,7 @@
     margin-bottom: 8px; 
 }
 
-.checkboxList input[type="checkbox"] {
+.checkboxList input[type="checkbox"] + label {
     appearance: none; 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -17,14 +17,10 @@
     height: 13px; 
     border: 1px solid #fcfcfc; 
     margin-right: 8px; 
-    border-radius: 2px; 
+    border-radius: 2px;
+
   }
-  
-  /* Style the checkboxes when checked */
-.checkboxList input[type="checkbox"]:checked {
-    background-color: #ffffff; 
-    border: 1px solid #eee6ec; 
-  }
+
 
 .scrollable-div {
   width: 200px;

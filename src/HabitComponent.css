@@ -1,7 +1,6 @@
 .habitList {
-    position: relative;
     bottom: 200px;
-    right: -50px;
+    right: -450px;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', monospace;
     font-weight: normal;
@@ -9,4 +8,11 @@
     border: 7px solid rgb(208, 207, 238);
     padding: 10px;
     border-width: thin;
+    height: 500px;
+    width: 500px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }

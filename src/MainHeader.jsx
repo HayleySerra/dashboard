@@ -10,13 +10,17 @@ import HabitComponent from './HabitComponent';
 function MainHeader() {
   const [cookies] = useCookies(['myCookie']);
   return (
-    <div>
-      <h1 className="mainheader">Welcome to dashboard, {cookies.myCookie}.</h1>
-      <WeatherComponent />
-      <NASAComponent />
-      <CreateNewTask />
-      <ClockComponent />
-      <HabitComponent />
+    <div class="container">
+      <div class="topbar">
+        <h1 className="mainheader">Welcome to dashboard, {cookies.myCookie}.</h1>
+        <WeatherComponent />
+        <ClockComponent />
+      </div>
+      <div class="mainbar">
+        <NASAComponent />
+        <CreateNewTask />
+        <HabitComponent />
+      </div>
     </div>
   );
 }

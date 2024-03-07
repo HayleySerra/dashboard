@@ -8,9 +8,13 @@
 
 .nasaImgDiv {
     height: 10px;
-    position: relative;
     bottom: 200px;
     right: 600px;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
 .nasaImgDiv h4 {
