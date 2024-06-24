@@ -4,6 +4,12 @@ import './ClockComponent.css';
 function ClockComponent()  {
   const [currentTime, setCurrentTime] = useState(new Date());
 
+  const [is12HourFormat, setIs12HourFormat] = useState(true);
+
+  const toggleTimeFormat = () => {
+    setIs12HourFormat(!is12HourFormat);
+  };
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTime(new Date());
@@ -15,12 +21,12 @@ function ClockComponent()  {
 }, []);
 
 
-
-
   return (
     <div className="clock">
-      <p>{currentTime.toLocaleTimeString()}</p>
-    </div>
+       <button className="timeButton" onClick={toggleTimeFormat}>
+        {is12HourFormat ? <p>{currentTime.toLocaleTimeString('en-GB')}</p> : <p>{currentTime.toLocaleTimeString()}</p>}
+      </button>
+  </div>
 
   );
 };

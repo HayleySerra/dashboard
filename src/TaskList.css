@@ -23,7 +23,7 @@
 
 
 .scrollable-div {
-  width: 200px;
-  height: 100px;
+  width: 800px;
+  height: 400px;
   overflow-y: auto;
 }
