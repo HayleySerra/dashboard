@@ -1,40 +1,17 @@
-.clock {    
-  width: 200px;
-  bottom: 575px;
-  right: -875px;
-  padding: 5px;
+.clock {
+    width: 200px;
+    bottom: 575px;
+    right: -875px;
+    padding: 5px;
 
-  color: rgb(0, 0, 0);
-  font-family: 'Courier New', monospace;
-  font-weight: bold;
-  font-size: 20px;
-
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 4;
-
-
-  .timeButton::after {
-    content: "Click to swap time format";
-    font-size: 10px;
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(84, 77, 77, 0.8);
     color: rgb(255, 255, 255);
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 20px;
 
-  .timeButton:hover {
-    filter: brightness(50%);
-  }
-
-  .timeButton:hover::after {
-    display: block;
-  }
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
 
   }

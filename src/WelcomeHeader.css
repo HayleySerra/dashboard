@@ -1,35 +1,30 @@
 .welcomeheader {
-    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 250px;
+    left: 0px;
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', monospace;
     font-weight: normal;
     font-size: 20px;
-    text-align: center; /*aligns dynamic name*/
-
     
   }
 
 .staticwelcome {
 
-  font-family: 'Courier New', monospace;
-  font-weight: normal;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  text-align: center; /*aligns static welcome message*/
-
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
 
   }
 
 .nameInput {
   width: 200px; 
   height: 20px; 
-  border: none;
-  border-bottom: 1px solid #000000;
-  font-size: 20px; 
-  background-color: transparent;
-  color: black;
-  caret-color: rgb(185, 147, 176); /*cursor colour*/
-  outline: none;
-  font-family: 'Courier New', monospace;
-  text-align: center;
-
+  border: 1px solid #000000; 
+  border-radius: 5px; 
+  padding: 5px; 
+  font-size: 12px; 
+  background-color: #beaeae; 
 }

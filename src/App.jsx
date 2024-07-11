@@ -4,9 +4,7 @@ import SwitchHeader from './SwitchHeader';
 
 function App() {
   return (
-    <div className="App">
-          <SwitchHeader />
-    </div>
+    <SwitchHeader />
   );
 }
 

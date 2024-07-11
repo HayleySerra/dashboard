@@ -5,7 +5,7 @@
     font-family: 'Courier New', monospace;
     font-weight: normal;
     font-size: 12px;
-    border: 7px solid rgb(218, 218, 221);
+    border: 7px solid rgb(208, 207, 238);
     padding: 10px;
     border-width: thin;
     height: 500px;
@@ -15,6 +15,4 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
-
-    background-color:rgb(221, 219, 218);
 }
