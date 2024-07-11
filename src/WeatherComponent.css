@@ -1,13 +1,10 @@
 .weather {
-    width: 200px;
-    bottom: 200px;
-    right: -875px;
-    padding: 5px;
+    width: 150px;
 
-    grid-column-start: 2;
+    /*grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 4;*/
 
   }
 
@@ -28,3 +25,10 @@
     font-size: 12px;
 
   }
+
+.we {
+  background-color:rgb(170, 198, 198);
+  margin-bottom: 20px;
+  text-align: center;
+
+}

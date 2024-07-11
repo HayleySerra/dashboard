@@ -1,7 +1,7 @@
-.welcomeButton {
+.timeButton {
     width: 80px; 
     height: 40px; 
-    font-size: 10px;
+    font-size: 12px;
     background-color: #271f1f;
     color: #FFFFFF;
     border: none;
@@ -15,9 +15,4 @@
   .welcomeButton:hover {
     background-color: #636060;
     color: #FFFFFF;
-  }
-
-  .welcomeDiv {
-    text-align: center;
-    font-family: 'Courier New', monospace;
   }

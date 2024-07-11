@@ -1,7 +1,7 @@
 .nasaImg {
     width: 250px;
     height: 150px;
-    border: 7px solid rgb(208, 207, 238);
+    border: 7px solid rgb(215, 215, 215);
     padding: 10px;
     border-width: thin;
 }
@@ -18,7 +18,7 @@
 }
 
 .nasaImgDiv h4 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', monospace;
     font-weight: normal;
     font-size: 12px;

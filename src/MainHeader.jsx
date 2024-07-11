@@ -13,8 +13,8 @@ function MainHeader() {
     <div class="container">
       <div class="topbar">
         <h1 className="mainheader">Welcome to dashboard, {cookies.myCookie}.</h1>
-        <WeatherComponent />
         <ClockComponent />
+        <WeatherComponent />
       </div>
       <div class="mainbar">
         <NASAComponent />

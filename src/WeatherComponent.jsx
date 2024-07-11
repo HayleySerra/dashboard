@@ -33,7 +33,7 @@ function WeatherComponent()  {
 
 
   return (
-    <div>
+    <div className="we">
       {weatherData ? ( //if weather data then show it, if not wait for it 
         <div className="weather">
             <h2>{weatherData.location.name}, {weatherData.location.region}</h2>
