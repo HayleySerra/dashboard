@@ -11,16 +11,40 @@ function MainHeader() {
   const [cookies] = useCookies(['myCookie']);
   return (
     <div class="container">
+
+      <div class="navbar"></div>
+
       <div class="topbar">
         <h1 className="mainheader">Welcome to dashboard, {cookies.myCookie}.</h1>
         <ClockComponent />
-        <WeatherComponent />
       </div>
-      <div class="mainbar">
-        <NASAComponent />
-        <CreateNewTask />
-        <HabitComponent />
+
+
+      <div className="columns">
+        <div className="column is-half">
+          <div className="box"><CreateNewTask /></div>
+        </div>
+        <div className="column is-half">
+          <div className="box"><HabitComponent /></div>
+        </div>
       </div>
+
+      <div className="columns">
+        <div className="column is-half">
+          <div className="box has-text-centered"><NASAComponent /></div>
+        </div>
+        <div className="column is-half">
+          <div className="box is-flex is-justify-content-center is-align-items-center"><WeatherComponent /></div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
     </div>
   );
 }

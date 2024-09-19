@@ -1,13 +1,13 @@
 .nasaImg {
-    width: 250px;
-    height: 150px;
+    width: 280px;
+    height: 180px;
     border: 7px solid rgb(215, 215, 215);
     padding: 10px;
     border-width: thin;
 }
 
 .nasaImgDiv {
-    height: 10px;
+    height: 200px; /*this changed the height of the box*/
     bottom: 200px;
     right: 600px;
 
@@ -15,6 +15,7 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
+
 }
 
 .nasaImgDiv h4 {

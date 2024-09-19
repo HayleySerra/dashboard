@@ -1,33 +1,29 @@
 .weather {
     width: 150px;
-
-    /*grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;*/
+    height: 180px;
 
   }
 
 .weather h2 {
 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', monospace;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 15px;
 
   }
 
 .weather p {
 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', monospace;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 15px;
 
   }
 
 .we {
-  background-color:rgb(170, 198, 198);
+  background-color:rgb(255, 255, 255);
   margin-bottom: 20px;
   text-align: center;
 

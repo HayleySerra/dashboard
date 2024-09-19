@@ -20,14 +20,6 @@
 
 }
 
-.mainbar {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
 
-  grid-gap: 50px;
-}
 
 

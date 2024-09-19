@@ -24,8 +24,8 @@ function NASAComponent()  {
     <div>
       {imageData ? (
         <div className="nasaImgDiv">
-          <h4>NASA image of the day: {imageData.title}</h4>
           <img className="nasaImg" src={imageData.url} alt={imageData.title} />
+          <h4>NASA image of the day: {imageData.title}</h4>
         </div>
       ) : (
         <p>Loading image data...</p>
