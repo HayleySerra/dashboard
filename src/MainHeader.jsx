@@ -1,7 +1,8 @@
 import React from 'react';
 import { useCookies } from 'react-cookie';
 import WeatherComponent from './WeatherComponent';
-import './MainHeader.css';
+/*import './MainHeader.css';*/
+import './styles.css';
 import NASAComponent from './NASAComponent';
 import CreateNewTask from './CreateNewTask';
 import ClockComponent from './ClockComponent';
@@ -31,10 +32,20 @@ function MainHeader() {
 
       <div className="columns">
         <div className="column is-half">
-          <div className="box has-text-centered"><NASAComponent /></div>
+          <div className="box has-text-centered"
+                style={{
+                  width: `300px`,
+                  height: `200px`,
+                }}
+          ><NASAComponent /></div>
         </div>
         <div className="column is-half">
-          <div className="box is-flex is-justify-content-center is-align-items-center"><WeatherComponent /></div>
+          <div className="box is-flex is-justify-content-center is-align-items-center"
+               style={{
+                width: `180px`,
+                height: `200px`,
+                }}
+          ><WeatherComponent /></div>
         </div>
       </div>
       

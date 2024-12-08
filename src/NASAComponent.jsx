@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './NASAComponent.css';
+/*import './NASAComponent.css';*/
+import './styles.css';
 
 function NASAComponent()  {
   const [imageData, setImageData] = useState(null);

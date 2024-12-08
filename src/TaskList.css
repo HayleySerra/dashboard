@@ -29,3 +29,11 @@
   padding: 16px; 
   background-color: #ffffff; 
 }
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  margin-right: 10px; 
+}

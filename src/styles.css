@@ -1,0 +1,288 @@
+/*button.jsx*/
+.welcomeButton {
+    width: 80px; 
+    height: 40px; 
+    font-size: 10px;
+    background-color: #271f1f;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    top: 20px; 
+    margin-top: 10px; 
+  }
+  
+  .welcomeButton:hover {
+    background-color: #636060;
+    color: #FFFFFF;
+  }
+
+  .welcomeDiv {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+  }
+
+  /*clockcomponent.jsx*/
+  .clock {    
+    width: 200px;
+    bottom: 575px;
+    right: -875px;
+    padding: 5px;
+  
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 20px;
+  
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  
+  
+    .timeButton::after {
+      content: "Click to swap time format";
+      font-size: 10px;
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(84, 77, 77, 0.8);
+      color: rgb(255, 255, 255);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  
+    .timeButton:hover {
+      filter: brightness(50%);
+    }
+  
+    .timeButton:hover::after {
+      display: block;
+    }
+  
+    }
+
+      /*createnewtask.jsx*/
+      .taskList {
+        bottom: -40px;
+        right: 600px;
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', monospace;
+        font-weight: normal;
+        font-size: 12px;
+        border: 7px solid rgb(255, 255, 255);
+        padding: 10px;
+        border-width: thin;
+        height: 200px;
+        width: 300px;
+    
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    
+        background-color:rgb(255, 255, 255);
+    }
+
+       /*habitcomponent.jsx*/
+       .habitList {
+        bottom: 200px;
+        right: -450px;
+        color: #000000;
+        font-family: 'Courier New', monospace;
+        font-weight: normal;
+        font-size: 12px;
+        border: 7px solid rgb(255, 255, 255);
+        padding: 10px;
+        border-width: thin;
+        height: 200px;
+        width: 300px;
+    
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color:rgb(255, 255, 255);
+    }
+
+    /*mainheader.jsx*/
+    .mainheader {
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', monospace;
+        font-weight: normal;
+        font-size: 40px;
+      
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+      
+        }
+      
+      .topbar {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+      
+      }
+
+      /*nasacomponent.jsx*/
+      .nasaImg {
+        width: 300px;
+        height: 170px;
+    
+    }
+    
+    .nasaImgDiv {
+        height: 200px; /*this changed the height of the box*/
+        bottom: 200px;
+        right: 600px;
+    
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    
+    }
+    
+    .nasaImgDiv h4 {
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', monospace;
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+    /*tasklist.jsx*/
+    .checkboxList {
+        list-style-type: none;
+        padding-left: 0; 
+    }
+      
+    .checkboxList li {
+        display: flex; 
+        align-items: center; 
+        margin-bottom: 8px; 
+    }
+    
+    .checkboxList input[type="checkbox"] + label {
+        appearance: none; 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 14px; 
+        height: 13px; 
+        border: 1px solid #fcfcfc; 
+        margin-right: 8px; 
+        border-radius: 2px;
+    
+      }
+    
+    
+    .scrollable-box {
+      height: 150px; 
+      overflow-y: auto; 
+      border: 1px solid #ffffff; 
+      padding: 16px; 
+      background-color: #ffffff; 
+    }
+    
+    .strikethrough {
+      text-decoration: line-through;
+    }
+    
+    .checkbox {
+      margin-right: 10px; 
+    }
+
+    /*timebutton.css*/
+    .timeButton {
+        width: 80px; 
+        height: 40px; 
+        font-size: 12px;
+        background-color: #271f1f;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    
+        top: 20px; 
+        margin-top: 10px; 
+      }
+      
+      .welcomeButton:hover {
+        background-color: #636060;
+        color: #FFFFFF;
+      }
+
+      /*weathercomponent.css*/
+      .weather {
+        width: 150px;
+        height: 180px;
+    
+      }
+    
+    .weather h2 {
+    
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', monospace;
+        font-weight: normal;
+        font-size: 15px;
+    
+      }
+    
+    .weather p {
+    
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', monospace;
+        font-weight: normal;
+        font-size: 15px;
+    
+      }
+    
+    .we {
+      background-color:rgb(255, 255, 255);
+      margin-bottom: 20px;
+      text-align: center;
+    
+    }
+
+    /*welcomeheader.css*/
+    .welcomeheader {
+        color: rgb(0, 0, 0);
+        font-family: 'Courier New', monospace;
+        font-weight: normal;
+        font-size: 20px;
+        text-align: center; /*aligns dynamic name*/
+    
+        
+      }
+    
+    .staticwelcome {
+    
+      font-family: 'Courier New', monospace;
+      font-weight: normal;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      text-align: center; /*aligns static welcome message*/
+    
+    
+      }
+    
+    .nameInput {
+      width: 200px; 
+      height: 20px; 
+      border: none;
+      border-bottom: 1px solid #000000;
+      font-size: 20px; 
+      background-color: transparent;
+      color: black;
+      caret-color: rgb(185, 147, 176); /*cursor colour*/
+      outline: none;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+    }    
+

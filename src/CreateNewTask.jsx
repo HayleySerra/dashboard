@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import TaskComponent from './TaskComponent';
 import TaskList from './TaskList';
-import './CreateNewTask.css';
+/*import './CreateNewTask.css';*/
+import './styles.css';
 
 
 function CreateNewTask () {

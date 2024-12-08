@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useCookies } from 'react-cookie';
-import './WelcomeHeader.css';
+/*import './WelcomeHeader.css';*/
+import './styles.css';
 
 function WelcomeHeader() {
   const [title, setTitle] = useState('');

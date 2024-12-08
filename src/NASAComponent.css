@@ -1,9 +1,7 @@
 .nasaImg {
-    width: 280px;
-    height: 180px;
-    border: 7px solid rgb(215, 215, 215);
-    padding: 10px;
-    border-width: thin;
+    width: 300px;
+    height: 170px;
+
 }
 
 .nasaImgDiv {

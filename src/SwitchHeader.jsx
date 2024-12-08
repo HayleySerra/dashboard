@@ -13,7 +13,7 @@ function SwitchHeader() {
   };
 
   return (
-    <div>
+    <div> 
       {isWelcomeHeaderVisible ? <WelcomeHeader /> : <MainHeader />}
       {isVisible && ( <Button onClick={toggleComponent}></Button>     )}
     </div>

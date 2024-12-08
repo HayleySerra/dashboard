@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import TaskComponent from './TaskComponent';
 import TaskList from './TaskList';
-import './HabitComponent.css';
+/*import './HabitComponent.css';*/
+import './styles.css';
 
 
 function HabitComponent () {
