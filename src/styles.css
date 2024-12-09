@@ -43,24 +43,19 @@
   
     .timeButton::after {
       content: "Click to swap time format";
-      font-size: 10px;
-      display: none;
+      font-size: 12px;
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       background-color: rgba(84, 77, 77, 0.8);
       color: rgb(255, 255, 255);
-      padding: 5px 10px;
+      opacity: 0;
       border-radius: 5px;
-    }
-  
-    .timeButton:hover {
-      filter: brightness(50%);
+      transition: opacity 0.3s ease;
+      transform: translate(-100%, -100%);
     }
   
     .timeButton:hover::after {
-      display: block;
+      display: flex;
+      opacity: 1;
     }
   
     }
