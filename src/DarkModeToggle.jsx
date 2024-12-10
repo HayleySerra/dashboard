@@ -25,7 +25,7 @@ const DarkModeToggle = () => {
     return (
       <button onClick={toggleDarkMode} className="dark-mode-toggle-btn" aria-label="Toggle Dark Mode">
         {}
-        {darkMode ? <FontAwesomeIcon icon={faSun} size="3x"/> : <FontAwesomeIcon icon={faMoon} size="3x"/>}
+        {darkMode ? <FontAwesomeIcon icon={faSun} size="2x"/> : <FontAwesomeIcon icon={faMoon} size="2x"/>}
       </button>
     );
   };

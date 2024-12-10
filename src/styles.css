@@ -26,7 +26,7 @@
   /*clockcomponent.jsx*/
   .clock {    
     width: 200px;
-    bottom: 575px;
+    bottom: 500px;
     right: -875px;
     padding: 5px;
   
@@ -34,6 +34,7 @@
     font-family: 'Courier New', monospace;
     font-weight: bold;
     font-size: 20px;
+    white-space: nowrap;
   
     grid-column-start: 1;
     grid-column-end: 2;
@@ -195,9 +196,9 @@
 
     /*timebutton.css*/
     .timeButton {
-        width: 80px; 
-        height: 40px; 
-        font-size: 20px;
+        width: 120px; 
+        height: 30px; 
+        font-size: 25px;
         background-color: #fbfbfb;
         color: #000000;
         border: none;
