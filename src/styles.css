@@ -127,6 +127,10 @@
       
       }
 
+      .navbar {
+        background-color: #fcfafa;
+      }
+
       /*nasacomponent.jsx*/
       .nasaImg {
         width: 300px;
@@ -435,11 +439,13 @@
     body.dark-mode .habitList{
       background-color: #2c2c2c;
       border: 7px solid #2c2c2c;
+      color: whitesmoke;
     }
 
     body.dark-mode .taskList{
       background-color: #2c2c2c;
       border: 7px solid #2c2c2c;
+      color: whitesmoke;
     }
 
     body.dark-mode .we {
@@ -473,6 +479,10 @@
     body.dark-mode .timeButton{
       background-color: #2c2c2c;
       color: whitesmoke;
+    }
+    
+    body.darkmode .navBar{
+      background-color: #2c2c2c;
     }
 
 

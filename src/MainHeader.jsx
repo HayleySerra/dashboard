@@ -1,12 +1,12 @@
 import React from 'react';
 import { useCookies } from 'react-cookie';
 import WeatherComponent from './WeatherComponent';
-import './styles.css';
 import NASAComponent from './NASAComponent';
 import CreateNewTask from './CreateNewTask';
 import ClockComponent from './ClockComponent';
 import HabitComponent from './HabitComponent';
 import DarkModeToggle from './DarkModeToggle';
+import './styles.css';
 
 function MainHeader() {
   const [cookies] = useCookies(['myCookie']);
@@ -14,7 +14,7 @@ function MainHeader() {
   return (
     <div class="container">
 
-      <div class="navbar">
+      <div className="navbar">
         <DarkModeToggle/>
       </div>
 
