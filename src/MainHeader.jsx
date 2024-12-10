@@ -8,9 +8,6 @@ import ClockComponent from './ClockComponent';
 import HabitComponent from './HabitComponent';
 import DarkModeToggle from './DarkModeToggle';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
-
 function MainHeader() {
   const [cookies] = useCookies(['myCookie']);
 

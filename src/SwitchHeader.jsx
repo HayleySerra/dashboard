@@ -2,21 +2,36 @@ import React, { useState } from 'react';
 import Button from './Button';
 import MainHeader from './MainHeader';
 import WelcomeHeader from './WelcomeHeader';
+import './styles.css';
 
 function SwitchHeader() {
   const [isWelcomeHeaderVisible, setWelcomeHeaderVisibility] = useState(true);
   const [isVisible, setIsVisible] = useState(true);
 
+  const [isButtonVisible, setButtonVisibility] = useState(true);
+
   const toggleComponent = () => {
-    setWelcomeHeaderVisibility(!isWelcomeHeaderVisible);
     setIsVisible(false);
+    setButtonVisibility(false);
+
+    setTimeout(() => {
+      setWelcomeHeaderVisibility(!isWelcomeHeaderVisible);
+      setIsVisible(true);
+    }, 500);
   };
 
   return (
-    <div> 
+    <div className="switch-header-container">
+    <div className={`header-container ${isVisible ? '' : 'sliding-out'}`}>
       {isWelcomeHeaderVisible ? <WelcomeHeader /> : <MainHeader />}
-      {isVisible && ( <Button onClick={toggleComponent}></Button>     )}
     </div>
+    {isButtonVisible && (
+      <Button
+        onClick={toggleComponent}
+        className={`transition-button ${isButtonVisible ? '' : 'slide-out'}`}
+        />
+    )}
+  </div>
   );
 }
 
